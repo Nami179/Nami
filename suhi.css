@@ -635,6 +635,25 @@ h2,
     transform: translateY(-30px);
 }
 
+.menu .row .card{
+    background-color: transparent;
+    width: 400px;
+    border: none;
+    outline: none;
+    color: #263473;
+    margin-left: 2.5em ;
+}
+
+.menu .row .card li{
+    list-style: none;
+    text-align: left;
+}
+
+@media screen and (max-width:800px){
+    .menu .row .card{
+        margin-left: 0.3em;
+    }
+}
 
 @media screen and (max-width:800px){
     .end{
