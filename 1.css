@@ -588,6 +588,7 @@ p,
 }
 .read-more-btn{
     color:#066df3;
+    cursor: pointer;
 }
 .read-more-text{
     display: none;
