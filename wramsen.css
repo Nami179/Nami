@@ -616,6 +616,38 @@ h2,
     transform: translateY(-30px);
 }
 
+.rule-part{
+    display: flex;
+    background-color: white;
+}
+.rule-part .row .card{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    text-align: left;
+    padding-top: 1em;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
+}
+.read-more-btn{
+    color:#066df3;
+    cursor: pointer;
+}
+.read-more-text{
+    display: none;
+}
+.read-more-text--show{
+    display: inline;
+}
+
+
+@media screen and (max-width:800px){
+    .rule-part .row .card i{
+        font-size: smaller;
+    }
+}
 
 @media screen and (max-width:800px){
     .end{
