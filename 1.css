@@ -572,30 +572,16 @@ p,
     transform: translateY(-30px);
 }
 
-.rule-part{
-    display: flex;
-    background-color: white;
+.text-center{
+    padding: 10px;
 }
-.rule-part .row .card{
-    width: 100%;
-    border: none;
-    outline: none;
-    border-radius: 0px;
-    text-align: left;
-    padding-top: 1em;
-    padding-left: 5%;
-    padding-right: 5%;
-    position: relative;
+.text-center a{
+    text-decoration: none;
+    color: black;   
+    transition: all 0.2s ease;
 }
-.read-more-btn{
-    color:#066df3;
-    cursor: pointer;
-}
-.read-more-text{
-    display: none;
-}
-.read-more-text--show{
-    display: inline;
+.text-center .col a:hover{
+    color:#4696ff;
 }
 
 
